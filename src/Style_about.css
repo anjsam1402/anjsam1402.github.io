@@ -163,6 +163,7 @@ header .container .row .col-md-7 p {
     background-position: 0rem -8rem;
     background-size: 100%;
     position: relative;
+    /* padding-bottom: 15vmin; */
 }
 
 .cover .overlay {
@@ -172,6 +173,7 @@ header .container .row .col-md-7 p {
     width: 50%;
     height: 50%;
     z-index: 999;
+    /* padding-bottom: 15vmin; */
 }
 
 .cover .content {
@@ -309,7 +311,7 @@ header .container .row .col-md-7 p {
 
 /* Section Team */
 
-.section-4 .container h1 {
+.section-4 .container{
     font-size: 6vmin;
     padding-top: 14vmin;
 }
@@ -343,7 +345,8 @@ header .container .row .col-md-7 p {
 footer {
     background: rgba(0, 0, 0, 0.815);
     overflow-x: hidden;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 14vmin 18vmin;
+    /* padding-top: 15vmin; */
 }
 
 footer p>span {
@@ -362,7 +365,7 @@ footer .input-group .input-group-text {
     background: var(--bggradient);
     border: none;
 }
-footer .col-md-5 {
+/* footer .col-md-5 {
     padding-left: 5rem;
     padding-right: 15rem;
     padding-inline-start: 10rem;
@@ -373,16 +376,16 @@ footer .col-md-2 {
     padding-right: 0rem;
     padding-inline-start: 19rem;
     padding-inline-end: 10rem;
-}
+} */
 
 footer .column i {
-    color: #2ddacb;
+    color: #dd2476;
 }
 
 /* It is Adjacent sibling combinator */
 
 footer .column i+i {
-    padding: 1 1.5em;
+    padding: 1 0.5em;
 }
 
 .sticky {
